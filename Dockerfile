@@ -1,4 +1,4 @@
-FROM ghcr.io/extrange/ibkr:10.19.2a
+FROM ghcr.io/extrange/ibkr:stable
 
 RUN apt-get update && apt-get install -y lsof
 
